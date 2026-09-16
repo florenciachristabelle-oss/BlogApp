@@ -1,0 +1,32 @@
+name: my_blog_app
+description: "Aplikasi Blog App Sederhana dengan Flutter"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.1.0 
+  http: ^1.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Konfigurasi Assets Gambar
+  assets:
+    - assets/images/
+
+  # Konfigurasi Custom Font (Path disesuaikan ke assets/CustomFont.ttf)
+fonts:
+    - family: CustomFont
+      fonts:
+        - asset: assets/fonts/CustomFont.ttf
